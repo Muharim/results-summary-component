@@ -15,6 +15,14 @@ body{
     flex-direction: column;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .satu{
     width: 100%;
     padding: 24px 24px 44px 24px;
@@ -122,16 +130,54 @@ h4 {
     color: black;
 }
 button {
-    display: flex;
     background-color: hsl(224, 30%, 27%);
     border-radius: 48px;
-    padding: 16px 120px;
+    padding: 16px 0px;
     font-size: 18px;
+    width: 100%;
     color: white;
     margin-top: 10px;
+    text-align: center;
+}
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .attribution {
     padding: 16px;
     text-align: center;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 1440px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 46%;
+        height: 450px;
+        border-radius: 32px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .satu{
+        border-radius: 32px;
+        width: 100%;
+        height: 100%;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .dua{
+        width: 100%;
+        height: 100%;
+        padding: 22px;
+    }
+    .attribution{
+        margin-top: 20px;
+    }
+    .bar {
+        width: 100%;
+    }
+    .description {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
