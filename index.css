@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.satu{
+    width: 100%;
+    padding: 24px 24px 44px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    border-radius: 0px 0px 32px 32px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.teks1{
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+}
+
+.value{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%, 0.05));
+    border-radius: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 56px;
+}
+
+.caption{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+}
+
+.descMain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+}
+
+.description{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+}
+
+.dua {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    gap: 16px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.bar1 {
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+    background-color: hsla(0, 100%, 67%, 0.05);
+}
+.bar2 {
+    color: hsl(39, 100%, 56%);
+    font-weight: bold;
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+.bar3 {
+    color: hsl(166, 100%, 37%);
+    font-weight: bold;
+    background-color: hsla(166, 100%, 37%, 0.05);
+}
+.bar4 {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.05);
+    font-weight: bold;
+}
+
+.Gt {
+    display: flex;
+    gap: 10px;
+}
+.Gv {
+    color: hsl(241, 100%, 89%);
+}
+
+.V {
+    color: black;
+}
+button {
+    display: flex;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 48px;
+    padding: 16px 120px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.attribution {
+    padding: 16px;
+    text-align: center;
+}
